@@ -4,6 +4,10 @@ h1, h2, h3 { /* assign h1, h2 and h3 with center align and font */
   color: rgb(0, 0, 0);
 }
 
+h3 { /* changes h3 to 24px */
+  font-size: 24px;
+}
+
 li, p { /* assigns list items and paragraphs with font and size */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
@@ -61,3 +65,9 @@ hr { /* changes the border to diamond */
 .round { /* rounds borders */
   border-radius: 10px;
 }
+
+/* adjusts the way the link respond to being used */
+a:link {color: blue;}
+a:visited {color: purple;}
+a:hover {color: lightblue;}
+a:active {color:darkred;}
