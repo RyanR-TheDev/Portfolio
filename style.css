@@ -1,21 +1,21 @@
-h1, h2, h4 {
+h1, h2, h3 { /* assign h1, h2 and h3 with center align and font */
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(104, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
-li, p {
+li, p { /* assigns list items and paragraphs with font and size */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
 }
 
-header {
+header { /* changes header with these attributes */
   background-color: rgb(128, 123, 100);
   padding: 5px;
   font-size: 18px;
 }
 
-footer {
+footer { /* changes footer with these attributes */
   background-color: rgb(34, 32, 26);
   padding: 5px;
   font-size: 10px;
@@ -23,31 +23,31 @@ footer {
   text-align: center;
 }
 
-.wrapper {
+.wrapper { /* adds a wrap around text */
   width: 1493px;
   margin: auto;
 }
 
-.center-align {
+.center-align { /* used to align anything to center */
   text-align: center;
 }
 
-div {
+div { /* adds sizing to div */
   width: 710px;
   margin: auto;
   padding: 20px;
 }
 
-main {
+main { /* adds background to main */
   background-color: rgb(204, 190, 172);
 }
 
 
-.list-inside li{
+.list-inside li{ /* lists the bullets near the list item */
   list-style-position: inside;
 }
 
-hr {
+hr { /* changes the border to diamond */
   width: 15px;
   height: 15px;
   border: none;
@@ -58,6 +58,6 @@ hr {
   transform: rotate(45deg);
 }
 
-.round {
+.round { /* rounds borders */
   border-radius: 10px;
 }
